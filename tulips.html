@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Tulips - Flower Shop</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background-color: beige;
+      color: black;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin: 0 10px;
+        background-color: yellow;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+
+    .nav-item a:hover {
+        background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: green;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 5px;
+      text-align: center;
+    }
+
+    th {
+      background-color: lightblue;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: beige;
+    }
+    
+    footer {
+      background-color: gray;
+      color: white;
+      text-align: center;
+      padding: 1px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Buy Tulips - Flower Shop</h1>
+  </header>
+  <nav>
+    <ul>
+      <li class="nav-item"><a href="#about">About Our Tulips</a></li>
+      <li class="nav-item"><a href="#varieties">Our Tulip Varieties</a></li>
+      <li class="nav-item"><a href="#pricing">Pricing</a></li>
+      <li class="nav-item"><a href="#care">Tulip Care Tips</a></li>
+      <li class="nav-item"><a href="#order">How to Order</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Our Tulips</h2>
+      <p>At <strong>Bloom & Buds Flower Shop</strong>, we specialize in providing the freshest and most vibrant tulips for every occasion.Whether you're looking for a bouquet to brighten your home or a gift for a loved one, our tulips are handpicked and carefully arranged to ensure the highest quality.</p>
+    </section>
+    <div class="container">
+        <img src="tulips-bouquet.webp" alt="bouquet of tulips" width="400">
+    </div>
+
+    <section id="varieties">
+      <h2>Our Tulip Varieties</h2>
+      <p>We offer a wide range of tulip varieties to suit every taste and occasion. Here are some of our most popular options:</p>
+      <ul>
+        <li><b>Classic Red Tulips</b>: Symbolizing true love, perfect for romantic gestures.</li>
+        <li><b>Pink Tulips</b>: A symbol of happiness and confidence, great for celebrations.</li>
+        <li><b>Yellow Tulips</b>: Representing cheerfulness and sunshine, ideal for brightening someone's day.</li>
+        <li><b>Purple Tulips</b>: A symbol of royalty and elegance, perfect for formal events.</li>
+        <li><b>White Tulips</b>: A symbol of new beginnings, forgiveness, or respect. </li>
+        <li><b>Orange Tulips</b>: A symbol of friendship, appreciation, and good fortune. </li>
+      </ul>
+      <table>
+        <tr>
+          <th>Variety</th>
+          <th>Color</th>
+          <th>Best For</th>
+        </tr>
+        <tr>
+          <td>Classic Red</td>
+          <td>Red</td>
+          <td>Romantic occasions</td>
+        </tr>
+        <tr>
+          <td>Pink Bliss</td>
+          <td>Pink</td>
+          <td>Celebrations</td>
+        </tr>
+        <tr>
+          <td>Sunny Yellow</td>
+          <td>Yellow</td>
+          <td>Cheerful gifts</td>
+        </tr>
+        <tr>
+          <td>Royal Purple</td>
+          <td>Purple</td>
+          <td>Formal events</td>
+        </tr>
+        <tr>
+          <td>Sky White</td>
+          <td>White</td>
+          <td>Wedings and baptism</td>
+        </tr>
+        <tr>
+          <td>Sweet Orange</td>
+          <td>Orange</td>
+          <td>Encouraging someone special</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <p>We offer competitive pricing for our tulip bouquets. Check out our rates below:</p>
+      <table>
+        <tr>
+          <th>Bouquet Size</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Small (5 stems)</td>
+          <td>$8.99</td>
+        </tr>
+        <tr>
+          <td>Medium (10 stems)</td>
+          <td>$15.99</td>
+        </tr>
+        <tr>
+          <td>Large (15 stems)</td>
+          <td>$18.99</td>
+        </tr>
+        <tr>
+          <td>Large (20 stems)</td>
+          <td>$25.99</td>
+        </tr>
+        <tr>
+          <td>Large (25 stems)</td>
+          <td>$28.99</td>
+        </tr>
+        <tr>
+          <td>Large (30 stems)</td>
+          <td>$35.99</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="care">
+      <h2>Tulip Care Tips</h2>
+      <p>To ensure your tulips stay fresh and beautiful, follow these care tips:</p>
+      <ul>
+        <li>Trim the stems at an angle before placing them in water.</li>
+        <li>Use a clean vase and change the water every 2 days.</li>
+        <li>Keep the bouquet away from direct sunlight and heat sources.</li>
+        <li>Add flower food to the water to extend their lifespan.</li>
+        <li>Clean up when they bloom.</li>
+        <li>Fertilize in the spring after the blooms have died back.</li>
+      </ul>
+
+      <details>
+        <summary><a href="Are those cut tulips still growing_ _ lifestyle _ bendbulletin.html">Why do tulips continue to grow after being cut?</a></summary>
+        <p>Tulips are unique in that they continue to grow even after being cut. This is because their cells are still active and respond to light and temperature changes. To prevent them from bending, keep them in a cool place and avoid overcrowding in the vase.</p>
+      </details>
+    </section>
+
+    <section id="order">
+      <h2>How to Order</h2>
+      <p>Ordering tulips from <b>Bloom & Buds Flower Shop</b> is easy! Follow these steps:</p>
+      <ol>
+        <li>Choose your favorite tulip variety and bouquet size.</li>
+        <li>Visit our <a href="mainpage.html">Main Page</a> to place your order.</li>
+        <li>Provide your delivery details and preferred delivery date.</li>
+        <li>Complete your payment securely online.</li>
+      </ol>
+      <p>We offer same-day delivery for orders placed before 12 PM. <b>Order now</b> to brighten someone's day!</p>
+    </section>
+  </main>
+  <footer>
+    <p>Page created by David De Leon | Flower Shop | <a href="mainpage.html">Back to Main Page</a></p>
+  </footer>
+</body>
+</html>
